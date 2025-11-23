@@ -1,0 +1,33 @@
+# NAME- GURVEEN KAUR
+# COURSE- B.TECH (DATA SCIENCE)
+# ROLL NO. - 2501420062
+# SUBJECT - PYTHON 
+# L A B    A S S I G N M E N T   3 
+
+# TASK - 1 ( )
+class book:
+    def __init__(self,title,author,isbn):
+         self.title = title
+         self.author = author
+         self.isbn = isbn
+         self.status = "available"
+    def issue(self):
+         if self.status == "available":
+            self.status = "issued"
+            print("book issued successfully!")
+         else:
+             print("book is alredy issued. ")
+             def return_book(self):
+                 if self.status == "issued":
+                     self.status = "available"
+                     print("book returned successfully!")
+                 else: 
+                     print("this book was not issued.")
+                     def is_available(self):
+                         return self.status == "available"
+                     # testing the book class
+                     book1 = book("python basics" , "guido rossum", "12345")
+                     print("status:" , book1.status book1.issue())
+    
+
+                 
